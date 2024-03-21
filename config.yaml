@@ -1,0 +1,30 @@
+dataset: "lince"
+subset: "ner_spaeng"
+train_dataset_path: "train_dataset"
+model_name: "xlm-roberta-base"
+batch_size: 256
+learning_rate: 0.0005
+project: "neural-code-switched-ner-tagger"
+epochs: 10
+labels:
+  - "O"
+  - "B-PER"
+  - "I-PER"
+  - "B-LOC"
+  - "I-LOC"
+  - "B-ORG"
+  - "I-ORG"
+  - "B-PROD"
+  - "I-PROD"
+  - "B-EVENT"
+  - "I-EVENT"
+  - "B-GROUP"
+  - "I-GROUP"
+  - "B-TITLE"
+  - "I-TITLE"
+  - "B-TIME"
+  - "I-TIME"
+  - "B-OTHER"
+  - "I-OTHER"
+hidden_state_size: 256
+capture_logs_for_wandb: False

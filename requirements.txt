@@ -1,0 +1,9 @@
+datasets==2.16.1
+sentencepiece==0.1.99
+wandb==0.16.4
+nltk==3.8.1
+transformers==4.38.2
+torch
+pyyaml==6.0.1
+scikit-learn==1.2.2
+ipykernel
