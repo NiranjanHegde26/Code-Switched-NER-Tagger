@@ -1,4 +1,5 @@
-# README
+## Introduction
+This repository is part of the Computational Linguistics course offered by Saarland University for the Winter Semester of 2023/24. Globalization has encouraged the people to be bilingual/multilingual and the influence of having fluency in multiple languages is visible all across including various social media. People often tend to use two or more languages either in the same sentence or in the discourse. This phenomenon is called Code Switching. The aim of the project, thus is to use neural models to identify NER in the code switched data in English-Spanish context. I have employed XLM-RoBERTa as a neural architecture, added extra head for NER tagging and finetuned the network using 2018 CALCS Dataset. Further information on the implementation, observation and result is available in the report. So happy to see you stumbling on my small work and hope you like it and have some constructive feedback!
 
 ## Directory Structure
 ```
